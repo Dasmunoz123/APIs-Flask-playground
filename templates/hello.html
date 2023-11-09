@@ -1,0 +1,11 @@
+{% if user_ip %}
+    <h1> Flask playground, IP server {{user_ip}} </h1>
+{% else %}
+    <a href = "{{ url_for('index') }}" > Get me back to home</a>
+{% endif %}
+
+<ul>
+    {% for option_x in options %}
+        <li> {{option_x}} </li>
+    {% endfor %}
+</ul>
