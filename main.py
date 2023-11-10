@@ -25,3 +25,15 @@ def hello():
         'options'   : options_list
     }
     return render_template(template_name_or_list='hello.html', **context)
+
+
+@app.route(rule='/landing', methods=['POST','GET'])
+def test():
+    return "Welcome to machine learning model APIs!"
+
+
+'''
+Running the defined Flask app
+'''
+if __name__ == '__main__':
+    app.run(debug=True)
