@@ -34,4 +34,5 @@ lr = LogisticRegression()
 lr.fit(X=x, y=y)
 
 import joblib
-joblib.dump(lr, 'MLmodels/rl_model.pkl')
+joblib.dump(lr, 'MLmodels/lr_model.pkl')
+joblib.dump(x.columns, 'MLmodels/lr_model_columns.pkl')
