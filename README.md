@@ -10,3 +10,5 @@ Using flask for building an easy api implementation
 
 2. Enable Debug mode
 ''' $env:FLASK_DEBUG = 1 '''
+
+https://medium.com/@deasadiqbal/transforming-machine-learning-models-into-apis-in-python-f9af614ab499
